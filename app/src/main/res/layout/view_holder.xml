@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/cv"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/viewTitulo"
+                android:layout_width="157dp"
+                android:layout_height="55dp"
+                android:layout_marginTop="10dp"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/viewDescripcion"
+                android:layout_width="157dp"
+                android:layout_height="55dp"
+                android:layout_marginTop="70dp"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/viewIngredientes"
+                android:layout_width="157dp"
+                android:layout_height="55dp"
+                android:layout_marginTop="135dp"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/viewNacionalidad"
+                android:layout_width="157dp"
+                android:layout_height="55dp"
+                android:layout_marginTop="200dp"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/viewLatitud"
+                android:layout_width="157dp"
+                android:layout_height="55dp"
+                android:layout_marginTop="260dp"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/viewLongitud"
+                android:layout_width="157dp"
+                android:layout_height="55dp"
+                android:layout_marginTop="320dp"
+                android:textAlignment="center" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
